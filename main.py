@@ -10,9 +10,9 @@ import plot
 st.set_page_config(layout="wide")
 
 #Path
-source = r"C:\Users\AIRSHOW\Downloads\Raw To Engineering Logs Converter\Engineering Logs\\"
-destination = r"D:\alt\split\\"
-
+#source = r"C:\Users\AIRSHOW\Downloads\Raw To Engineering Logs Converter\Engineering Logs\\"
+#destination = r"D:\alt\split\\"
+uploaded_files = st.file_uploader("Choose files", accept_multiple_files=True, type=["csv"])
 #Function to read raw files
 #@st.cache_data
 def run(source,destination):
