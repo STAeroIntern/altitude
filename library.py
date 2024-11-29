@@ -19,7 +19,6 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 import geopy.distance
-from plotly.subplots import make_subplots
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.decomposition import PCA
 from imblearn.over_sampling import RandomOverSampler,SMOTE
