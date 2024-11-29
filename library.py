@@ -6,7 +6,7 @@ import math
 from datetime import datetime
 import os
 import shutil
-import mysql.connector as mysql
+#import mysql.connector as mysql
 import time
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
