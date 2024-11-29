@@ -10,12 +10,8 @@ import plot
 st.set_page_config(layout="wide")
 
 #Path
-source = r"C:\Users\AIRSHOW\Downloads\Raw To Engineering Logs Converter\Engineering Logs"
-destination = r"D:\alt\split"
-
-# Ensure paths are converted to absolute paths
-source = os.path.abspath(source)
-destination = os.path.abspath(destination)
+source = r"C:\Users\AIRSHOW\Downloads\Raw To Engineering Logs Converter\Engineering Logs\\"
+destination = r"D:\alt\split\\"
 
 #Function to read raw files
 #@st.cache_data
