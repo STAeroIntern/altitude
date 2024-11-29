@@ -1,5 +1,5 @@
 import streamlit as st
-import library
+from library import *
 import func
 import read
 import split
